@@ -141,7 +141,7 @@ a {
   text-align: center;
 }
 
-.directions-item {
+.directions-item > p {
   color: var(--primary-white-color);
   background-color: rgba(47, 48, 58, 0.8);
 
