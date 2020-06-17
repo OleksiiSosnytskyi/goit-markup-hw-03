@@ -76,6 +76,16 @@ a {
   color: var(--accent-color);
 }
 /* site nav */
+.site-nav {
+  display: flex;
+}
+.site-nav .item {
+  margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+  margin-right: 0;
+}
 
 .site-nav .link {
   color: var(--title-text-color);
@@ -94,6 +104,12 @@ a {
   color: var(--accent-color);
 }
 /* class="contacts */
+.contacts {
+  display: flex;
+}
+.contacts .item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .contacts .contacts-link {
   color: var(--primary-text-color);
@@ -148,9 +164,15 @@ a {
 
 /*наши преимущества*/
 
+.advantages-list {
+  display: flex;
+}
 .advantages-icon {
   margin-bottom: 30px;
   background-color: var(--secondary-background-color);
+}
+.advantages-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .advantages-title {
@@ -194,6 +216,12 @@ a {
 
 .directions {
   padding-bottom: 94px;
+}
+.directions-list {
+  display: flex;
+}
+.directions-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* наша команда */
