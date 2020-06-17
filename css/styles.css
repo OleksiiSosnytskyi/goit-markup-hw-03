@@ -303,7 +303,15 @@ footer {
 
 /* стили для портфолио */
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .buttons-item {
+  border-radius: 4px;
+  padding: 6px 22px;
+
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
 
@@ -317,7 +325,14 @@ footer {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+
+.projects-works {
+  padding: 20px 24px;
+}
+
 .projects-title {
+  margin-bottom: 4px;
+
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -326,7 +341,7 @@ footer {
   letter-spacing: 0.06em;
 }
 
-.projects-item {
+.projects-type {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
