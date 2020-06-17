@@ -180,8 +180,6 @@ a {
   line-height: 1.17;
   text-align: center;
 }
-.directions > .section-title {
-}
 
 .directions-item > p {
   color: var(--primary-white-color);
