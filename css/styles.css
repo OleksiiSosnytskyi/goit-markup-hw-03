@@ -26,11 +26,38 @@ body {
   font-size: 14px;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
+.centered {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 a {
   text-decoration: none;
 }
 
 .list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -83,28 +110,37 @@ a {
 /* герой */
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   color: var(--primary-white-color);
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .hero {
+  text-align: center;
+
   background-color: rgba(47, 48, 58, 0.8);
 }
 
 .button {
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
+  min-width: 200px;
+  border: 1px solid transparent;
+
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -113,10 +149,12 @@ a {
 /*наши преимущества*/
 
 .advantages-icon {
+  margin-bottom: 30px;
   background-color: var(--secondary-background-color);
 }
 
 .advantages-title {
+  margin-bottom: 10px;
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -133,12 +171,16 @@ a {
 /*  наше напрвление*/
 
 .section-title {
+  margin-bottom: 50px;
+
   color: var(--title-text-color);
 
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+.directions > .section-title {
 }
 
 .directions-item > p {
@@ -152,13 +194,23 @@ a {
   text-transform: uppercase;
 }
 
+.directions {
+  padding-bottom: 94px;
+}
+
 /* наша команда */
 
 .team {
   background-color: var(--secondary-background-color);
 }
 
+.team-image {
+  margin-bottom: 30px;
+}
+
 .team-name {
+  margin-bottom: 10px;
+
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -176,6 +228,8 @@ a {
 }
 
 .position {
+  margin-bottom: 16px;
+
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -193,6 +247,9 @@ footer {
 }
 
 .logowhite {
+  display: inline-block;
+  margin-bottom: 8px;
+
   color: var(--primary-white-color);
 
   font-family: Raleway;
@@ -207,12 +264,20 @@ footer {
 }
 
 .address-kiev {
+  display: inline-block;
+  margin-bottom: 9px;
   color: var(--primary-white-color);
 }
 .footer-contacts {
+  display: inline-block;
+  margin-bottom: 9px;
+
   color: rgba(255, 255, 255, 0.6);
 }
 .join-us {
+  display: inline-block;
+  margin-bottom: 20px;
+
   color: var(--primary-white-color);
 
   font-weight: 700;
@@ -226,6 +291,9 @@ footer {
 }
 
 .develop {
+  display: inline-block;
+  margin-bottom: 21px;
+
   color: rgba(255, 255, 255, 0.4);
 
   font-size: 12px;
