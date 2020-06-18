@@ -319,6 +319,11 @@ footer {
   background-color: #2f303a;
 }
 
+.footer-links {
+  margin-top: 57px;
+  margin-bottom: 57px;
+}
+
 .logowhite {
   display: inline-block;
   margin-bottom: 8px;
@@ -387,11 +392,11 @@ footer {
 .buttons {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
-.buttons-item {
+.buttons-item:not(:last-child) {
   margin-right: 8px;
-  margin-bottom: 50px;
 }
 
 .buttons-portfolio {
