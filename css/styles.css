@@ -35,9 +35,14 @@ body {
   outline: 2px solid tomato;
 }
 
-.centered {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 h1,
@@ -228,7 +233,7 @@ a {
 }
 
 .directions {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 .directions-list {
   display: flex;
@@ -383,11 +388,6 @@ footer {
 }
 
 /* стили для портфолио */
-
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .buttons {
   display: flex;
